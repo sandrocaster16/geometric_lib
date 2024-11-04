@@ -27,7 +27,7 @@ Function for calculating the area and perimeter of a Circle
 
 ### [**Rectangle**](https://github.com/sandrocaster16/geometric_lib/blob/new_features_471952/rectangle.py)
 
-function for calculating the area and perimeter of a Rectangle
+Function for calculating the area and perimeter of a Rectangle
 
 > [!TIP]
 > Area:
@@ -40,7 +40,7 @@ function for calculating the area and perimeter of a Rectangle
 
 ### [**Square**](https://github.com/sandrocaster16/geometric_lib/blob/new_features_471952/square.py)
 
-function for calculating the area and perimeter of a Square
+Function for calculating the area and perimeter of a Square
 
 > [!TIP]
 > Area:
@@ -53,7 +53,7 @@ function for calculating the area and perimeter of a Square
 
 ### [**Triangle**](https://github.com/sandrocaster16/geometric_lib/blob/new_features_471952/triangle.py)
 
-function for calculating the area and perimeter of a Triangle
+Function for calculating the area and perimeter of a Triangle
 
 > [!TIP]
 > Area:
