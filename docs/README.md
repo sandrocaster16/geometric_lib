@@ -12,7 +12,10 @@
 - **Triangle:** P = a + b + c
 
 ## EXAMPLES
-### **Circle**
+### [**Circle**](https://github.com/sandrocaster16/geometric_lib/blob/new_features_471952/circle.py)
+
+Function for calculating the area and perimeter of a Circle
+
 > [!TIP]
 > Area:
 > Input: r = 3
@@ -22,7 +25,10 @@
 > Input: r = 3
 > Output: 6π
 
-### **Rectangle**
+### [**Rectangle**](https://github.com/sandrocaster16/geometric_lib/blob/new_features_471952/rectangle.py)
+
+function for calculating the area and perimeter of a Rectangle
+
 > [!TIP]
 > Area:
 > Input: a = 3, b = 5
@@ -32,7 +38,10 @@
 > Input: a = 3, b = 5
 > Output: 16
 
-### **Square**
+### [**Square**](https://github.com/sandrocaster16/geometric_lib/blob/new_features_471952/square.py)
+
+function for calculating the area and perimeter of a Square
+
 > [!TIP]
 > Area:
 > Input: a = 3
@@ -42,7 +51,10 @@
 > Input: a = 3
 > Output: 12
 
-### **Triangle**
+### [**Triangle**](https://github.com/sandrocaster16/geometric_lib/blob/new_features_471952/triangle.py)
+
+function for calculating the area and perimeter of a Triangle
+
 > [!TIP]
 > Area:
 > Input: a = 3, h = 6
