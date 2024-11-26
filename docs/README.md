@@ -64,9 +64,11 @@ Function for calculating the area and perimeter of a Triangle
 > Input: a = 3, b = 4, c = 5
 > Output: 12
 
-ffb424b - Labs 4 'Unittests' <br>
+History:
+
+ffb424b - Lab 4 'Unittests' <br>
 00d56ef - Remote unusing files <br>
-c936d33 - Fix labs 1 <br>
+c936d33 - Fix lab 1 <br>
 9e17f09 - Update all files. Added comments and updated README <br>
 71b539b - Fixed bug in rectangle.py and add a new file - triangle.py <br>
 91ac217 - Add a new file - rectangle.py <br>
