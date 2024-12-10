@@ -1,0 +1,45 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python (или другой язык, который вы используете)
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt  # Укажите ваш файл зависимостей
+
+      - name: Run unit tests
+        run: |
+          pytest  # Или другая команда для запуска ваших тестов
+
+  test-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python (или другой язык, который вы используете)
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt  # Укажите ваш файл зависимостей
+
+      - name: Run unit tests
+        run: |
+          pytest  # Или другая команда для запуска ваших тестов
