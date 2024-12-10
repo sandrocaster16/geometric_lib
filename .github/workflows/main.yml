@@ -12,8 +12,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          pip3 install unittest
+
       - name: Run unit tests
-        run: unit_test.py
+        run: |
+          python -m unittest unit_test.py
+
 
   test-windows:
     runs-on: windows-latest
@@ -21,5 +32,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8' 
+
+      - name: Install dependencies
+        run: |
+          pip install unittest
+
       - name: Run unit tests
-        run: unit_test.py
+        run: |
+          python -m unittest unit_test.py
