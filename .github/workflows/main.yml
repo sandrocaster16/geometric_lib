@@ -23,7 +23,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest unit_test.py
+          pytest unit_tests.py
 
   test-windows:
     runs-on: windows-latest
@@ -42,4 +42,4 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest unit_test.py
+          pytest unit_tests.py
