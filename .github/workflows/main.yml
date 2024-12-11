@@ -4,29 +4,15 @@ on:
   push:
     branches:
       - new_features_471952
+  workflow_dispatch: 
 
 jobs:
-  test-ubuntu:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+  tests:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-
-      - name: Install dependencies
-        run: |
-          pip install pytest
-
-      - name: Run tests
-        run: |
-          pytest unit_tests.py
-
-  test-windows:
-    runs-on: windows-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
